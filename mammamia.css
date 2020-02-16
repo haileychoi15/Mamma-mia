@@ -1,0 +1,59 @@
+  h1 {
+    text-align: center;
+  }
+
+  body {
+    margin: 0;
+    background-color:coral;color:white;"
+  }
+
+  ol {
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 20px;
+
+  }
+
+  img {
+    display: block;
+  }
+
+  #grid #article {
+    border-right: 1px solid black;
+    padding: 20px;
+  }
+
+  #grid #content {
+    padding: 20px;
+  }
+
+  #grid {
+    display: grid;
+    grid-template-columns: 540px 1fr;
+  }
+
+  a {
+    color: white;
+        text-decoration: none;
+  }
+
+  @media(max-width:1000px) {
+    #grid {
+      display: block;
+    }
+
+    #grid #article {
+      border-right: none;
+
+    }
+
+    ol {
+      border-bottom: none;
+
+    }
+    .saw {
+  color: gray;
+    }
+   #active {
+     color: red;
+    }
